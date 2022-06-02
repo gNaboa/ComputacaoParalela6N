@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <omp.h>
 
-void TaylorSum(unsigned long long int T,double* global_S_p);         /* Armazena resultado na variavel global_S */
+void TaylorSum(unsigned long long int T,double* global_s);         /* Armazena resultado na variavel global_S */
 
 int main(int argc, char* argv[]){            
 
@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
 
     return 0;
 }
-void TaylorSum(unsigned long long int T, double* global_S_p){
+void TaylorSum(unsigned long long int T, double* global_s){
    double s = 0.0;
    unsigned long long int i;
 
@@ -30,5 +30,5 @@ void TaylorSum(unsigned long long int T, double* global_S_p){
      }
 
    #pragma omp critical
-     *global_S_p +=s;
+     *global_s +=s;
 }
