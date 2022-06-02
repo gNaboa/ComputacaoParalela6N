@@ -7,8 +7,8 @@ void TaylorSum(unsigned long long int T,double* global_S_p);         /* Armazena
 int main(int argc, char* argv[]){            
 
   double global_result = 0.0;
-  int n;
-  unsigned long long int thread_count;
+  int n;                                      /* Valor de T */
+  unsigned long long int thread_count;           /* Quantidade de threads */
 
    thread_count=strtol(argv[1],NULL,10);
    printf("Digite o valor de T\n");
