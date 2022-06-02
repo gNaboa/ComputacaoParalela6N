@@ -11,7 +11,7 @@ int main(int argc, char* argv[]){
   unsigned long long int thread_count;           /* Quantidade de threads */
 
    thread_count=strtol(argv[1],NULL,10);
-   printf("Digite o valor de T\n");
+   printf("Digite o valor de T\n");            /* Recebe valor de T */
    scanf("%d",&n);
   # pragma omp parallel num_threads(thread_count)
     TaylorSum(n,&global_result);
