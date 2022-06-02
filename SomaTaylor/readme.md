@@ -1,21 +1,19 @@
 Problema Tartaruga
-Esse é o projeto final da disciplina de Computação Paralela que consiste em construir um programa em paralelo para encontrar o maior valor para a série ln(t).
 
-Mais detalhes nesse link.
+Projeto final da disciplina COmputação Paralela
 
-Participantes do grupo
-Lucas Guerrero Morlino
+Guilherme Ferreira 31876961
 
-Murilo Magalhaes
+Amilton Agostinho 31876765
 
-Ambiente de Execução
-Ubuntu 20.04 LTS
+Ambiente: Ubuntu on Windows
+
 Compilação e Execução
-- Compilação
-gcc -g -Wall -fopenmp-o {NomeDoArquivo} {NomeDoExecutavel}
 
 gcc -g -Wall -fopenmp-o  tartaruga.c tartaruga
-- Execução
-./{NomeDoArquivo} {QuantidadeDeThreads}
 
-./tartaruga 30000
+./tartaruga {Quantidade de threads}
+
+Depois digitar o valor de T
+![image](https://user-images.githubusercontent.com/48036612/171701755-2a2b5a72-f7e1-42c8-9a71-71fa705e49db.png)
+
