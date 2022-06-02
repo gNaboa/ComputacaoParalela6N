@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <omp.h>
 
-void TaylorSum(unsigned long long int T,double* global_S_p);
+void TaylorSum(unsigned long long int T,double* global_S_p);         /* Armazena resultado na variavel global_S */
 
-int main(int argc, char* argv[]){
+int main(int argc, char* argv[]){            
 
   double global_result = 0.0;
   int n;
   unsigned long long int thread_count;
 
    thread_count=strtol(argv[1],NULL,10);
-   printf("Enter T\n");
+   printf("Digite o valor de T\n");
    scanf("%d",&n);
   # pragma omp parallel num_threads(thread_count)
     TaylorSum(n,&global_result);
