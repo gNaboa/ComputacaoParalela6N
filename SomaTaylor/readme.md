@@ -6,7 +6,7 @@ Guilherme Ferreira 31876961
 
 Amilton Agostinho 31876765
 
-Ambiente: Ubuntu on Windows
+Ambiente: Ubuntu 20.04.2 LTS on Windows
 
 Compilação e Execução:
 
