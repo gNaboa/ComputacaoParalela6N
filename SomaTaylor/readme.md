@@ -1,10 +1,11 @@
+Guilherme Ferreira 31876961
+
+Amilton Agostinho 31876765
+
 Problema Tartaruga
 
 Projeto final da disciplina Computação Paralela
 
-Guilherme Ferreira 31876961
-
-Amilton Agostinho 31876765
 
 Ambiente: Ubuntu 20.04.2 LTS on Windows
 
