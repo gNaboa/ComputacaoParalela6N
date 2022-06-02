@@ -1,6 +1,6 @@
 Problema Tartaruga
 
-Projeto final da disciplina COmputação Paralela
+Projeto final da disciplina Computação Paralela
 
 Guilherme Ferreira 31876961
 
