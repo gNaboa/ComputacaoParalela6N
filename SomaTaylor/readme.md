@@ -11,9 +11,9 @@ Ambiente: Ubuntu 20.04.2 LTS on Windows
 
 Compilação e Execução:
 
-gcc -g -Wall -fopenmp-o  tartaruga.c tartaruga
+gcc -g -Wall -fopenmp-o  opemmp.c opemmp
 
-./tartaruga {Quantidade de threads}
+./opemmp {Quantidade de threads}
 
 Depois digitar o valor de T:
 ![image](https://user-images.githubusercontent.com/48036612/171701755-2a2b5a72-f7e1-42c8-9a71-71fa705e49db.png)
