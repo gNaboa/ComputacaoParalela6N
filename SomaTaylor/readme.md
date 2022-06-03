@@ -2,7 +2,7 @@ Guilherme Ferreira 31876961
 
 Amilton Agostinho 31876765
 
-Problema Tartaruga
+Soma de taylor
 
 Projeto final da disciplina Computação Paralela
 
