@@ -33,5 +33,11 @@ Valor final alcançado:
 
 
 
+VERSAO SERIAL: 11.5
+
+VERSAO PARALELA:5.21
+
+
+
 
 
