@@ -33,9 +33,9 @@ Valor final alcançado:
 
 
 
-VERSAO SERIAL: 11.5
+VERSAO SERIAL: 11.5s
 
-VERSAO PARALELA:5.21
+VERSAO PARALELA:5.21s
 
 
 
